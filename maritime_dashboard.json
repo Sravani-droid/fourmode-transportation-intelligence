@@ -1,0 +1,131 @@
+{
+    "kpis": {
+        "total_portcalls": 9323798.0,
+        "total_imports": 30398507095.13771,
+        "total_exports": 30404875004.87892,
+        "total_trade": 60803382100.01663
+    },
+    "top_ports": [
+        {
+            "portname": "Singapore",
+            "portcalls": 253234,
+            "import": 796717078.5800496,
+            "export": 716517872.9558755
+        },
+        {
+            "portname": "Shanghai",
+            "portcalls": 154008,
+            "import": 245447207.8102621,
+            "export": 573019192.5900083
+        },
+        {
+            "portname": "Rotterdam",
+            "portcalls": 134457,
+            "import": 804524399.8312931,
+            "export": 315897959.8920044
+        },
+        {
+            "portname": "Busan",
+            "portcalls": 112436,
+            "import": 187714876.99846,
+            "export": 210849557.9888123
+        },
+        {
+            "portname": "Hong Kong",
+            "portcalls": 93092,
+            "import": 219346233.0238616,
+            "export": 223642893.3678913
+        },
+        {
+            "portname": "Ningbo",
+            "portcalls": 87531,
+            "import": 607115464.5652894,
+            "export": 377143000.7676056
+        },
+        {
+            "portname": "Nagoya Aichi",
+            "portcalls": 80664,
+            "import": 88113667.60918278,
+            "export": 45742206.40406726
+        },
+        {
+            "portname": "Antwerp",
+            "portcalls": 80039,
+            "import": 209249686.36785007,
+            "export": 273203189.0854458
+        },
+        {
+            "portname": "Kaohsiung",
+            "portcalls": 76121,
+            "import": 255217607.8968574,
+            "export": 163596130.0464897
+        },
+        {
+            "portname": "Yokohama",
+            "portcalls": 72878,
+            "import": 76135681.40239048,
+            "export": 41851019.03921568
+        }
+    ],
+    "top_countries": [
+        {
+            "country": "China",
+            "import": 8325256979.689399,
+            "export": 4038373505.122134
+        },
+        {
+            "country": "Japan",
+            "import": 1701634491.7881696,
+            "export": 583589128.2803206
+        },
+        {
+            "country": "United States",
+            "import": 1661941148.3803077,
+            "export": 2232527264.6628537
+        },
+        {
+            "country": "India",
+            "import": 1459104718.852794,
+            "export": 641859093.5377983
+        },
+        {
+            "country": "Korea",
+            "import": 1108568751.639428,
+            "export": 588878110.0625736
+        },
+        {
+            "country": "The Netherlands",
+            "import": 1062564758.008066,
+            "export": 475341826.7245541
+        },
+        {
+            "country": "Singapore",
+            "import": 818466758.8708082,
+            "export": 734990868.8820196
+        },
+        {
+            "country": "Spain",
+            "import": 666766498.5868018,
+            "export": 497497312.34832704
+        },
+        {
+            "country": "T\u00fcrkiye",
+            "import": 663184128.0843935,
+            "export": 611809212.4583341
+        },
+        {
+            "country": "United Kingdom",
+            "import": 662523877.1411331,
+            "export": 265750093.7994523
+        }
+    ],
+    "cargo_mix": [
+        {
+            "container": 12726245784.373062,
+            "dry_bulk": 27391377419.118225,
+            "general_cargo": 3372938939.6503263,
+            "roro": 513031488.6643941,
+            "tanker": 16799788468.21062
+        }
+    ]
+}

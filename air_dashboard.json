@@ -1,0 +1,128 @@
+{
+    "kpis": {
+        "total_cargo_tons": 7369599.063665001,
+        "total_passengers": 667893973
+    },
+    "top_airlines": [
+        {
+            "operating_airline": "United Airlines",
+            "cargo_metric_tons": 1122403.5635952
+        },
+        {
+            "operating_airline": "United Airlines - Pre 07/01/2013",
+            "cargo_metric_tons": 809104.4839636
+        },
+        {
+            "operating_airline": "Federal Express",
+            "cargo_metric_tons": 744694.544507
+        },
+        {
+            "operating_airline": "Korean Air Lines",
+            "cargo_metric_tons": 353163.3287066
+        },
+        {
+            "operating_airline": "China Airlines",
+            "cargo_metric_tons": 314713.592224
+        },
+        {
+            "operating_airline": "EVA Airways",
+            "cargo_metric_tons": 301551.9400686
+        },
+        {
+            "operating_airline": "Atlas Air, Inc",
+            "cargo_metric_tons": 269568.8871114
+        },
+        {
+            "operating_airline": "American Airlines",
+            "cargo_metric_tons": 252839.127997
+        },
+        {
+            "operating_airline": "Asiana Airlines",
+            "cargo_metric_tons": 248476.1981674
+        },
+        {
+            "operating_airline": "Delta Air Lines",
+            "cargo_metric_tons": 214185.7391688
+        }
+    ],
+    "top_passenger_airlines": [
+        {
+            "operating_airline": "United Airlines",
+            "passenger_count": 153132799
+        },
+        {
+            "operating_airline": "United Airlines - Pre 07/01/2013",
+            "passenger_count": 105363917
+        },
+        {
+            "operating_airline": "SkyWest Airlines",
+            "passenger_count": 53022128
+        },
+        {
+            "operating_airline": "American Airlines",
+            "passenger_count": 50944266
+        },
+        {
+            "operating_airline": "Delta Air Lines",
+            "passenger_count": 42797969
+        },
+        {
+            "operating_airline": "Southwest Airlines",
+            "passenger_count": 39534967
+        },
+        {
+            "operating_airline": "Virgin America",
+            "passenger_count": 37843920
+        },
+        {
+            "operating_airline": "Alaska Airlines",
+            "passenger_count": 27923130
+        },
+        {
+            "operating_airline": "US Airways",
+            "passenger_count": 16816616
+        },
+        {
+            "operating_airline": "JetBlue Airways",
+            "passenger_count": 14077961
+        }
+    ],
+    "regions": [
+        {
+            "geo_region": "Asia",
+            "cargo_metric_tons": 3167968.4869968
+        },
+        {
+            "geo_region": "US",
+            "cargo_metric_tons": 2949683.8435842
+        },
+        {
+            "geo_region": "Europe",
+            "cargo_metric_tons": 960326.5137992
+        },
+        {
+            "geo_region": "Australia / Oceania",
+            "cargo_metric_tons": 189522.9066024
+        },
+        {
+            "geo_region": "Middle East",
+            "cargo_metric_tons": 53207.3448648
+        },
+        {
+            "geo_region": "Canada",
+            "cargo_metric_tons": 25134.4472904
+        },
+        {
+            "geo_region": "South America",
+            "cargo_metric_tons": 12177.8858376
+        },
+        {
+            "geo_region": "Mexico",
+            "cargo_metric_tons": 10401.3378504
+        },
+        {
+            "geo_region": "Central America",
+            "cargo_metric_tons": 1176.2968392
+        }
+    ]
+}

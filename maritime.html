@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourMode | Maritime Intelligence</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body data-page="maritime">
+
+<div class="background"></div>
+
+<nav class="navbar">
+
+    
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            <button class="nav-btn">Overview</button>
+        </a>
+
+        <a href="road.html">
+            <button class="nav-btn">Road</button>
+        </a>
+
+        <a href="air.html">
+            <button class="nav-btn">Air</button>
+        </a>
+
+        <a href="rail.html">
+            <button class="nav-btn">Rail</button>
+        </a>
+
+        <a href="maritime.html">
+            <button class="nav-btn active">Maritime</button>
+        </a>
+
+       
+    </div>
+
+</nav>
+
+<section class="hero">
+
+    <h1 id="pageTitle">
+        Maritime Port & Trade Intelligence
+    </h1>
+
+    <p class="subtitle" id="pageSubtitle">
+        Port Activity, Global Trade Flow & Cargo Mix Analysis
+    </p>
+
+    <p class="description" id="pageDescription">
+        Maritime transportation analytics covering port activity,
+        international trade movement, cargo composition,
+        shipping throughput, and global logistics strategy.
+    </p>
+
+</section>
+
+<section class="kpi-grid" id="kpiGrid"></section>
+
+<section class="chart-section">
+
+    <div class="glass-card">
+
+        <h2>Global Trade Strength Score</h2>
+
+        <h1 style="
+            font-size:5rem;
+            color:#A855F7;
+            text-align:center;
+        ">
+            96
+        </h1>
+
+        <p style="text-align:center;">
+            Maritime transportation remains the dominant mode
+            for large-scale global freight movement and
+            international trade operations.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="chart-section">
+
+    <div class="glass-card chart-card">
+
+        <h2 id="primaryChartTitle">
+            Cargo Mix Analysis
+        </h2>
+
+        <p id="primaryChartNote">
+            Distribution of maritime freight across cargo categories,
+            including container, dry bulk, tanker, and RoRo traffic.
+        </p>
+
+        <canvas id="primaryChart"></canvas>
+
+    </div>
+
+</section>
+
+<section class="chart-section">
+
+    <div class="glass-card chart-card">
+
+        <h2 id="secondaryChartTitle">
+            Top Ports by Activity
+        </h2>
+
+        <p id="secondaryChartNote">
+            Highest performing global ports ranked by
+            total maritime activity and throughput.
+        </p>
+
+        <canvas id="secondaryChart"></canvas>
+
+    </div>
+
+</section>
+
+<section class="detail-grid">
+
+    <div class="glass-card">
+
+        <h2>
+            Key Insights
+        </h2>
+
+        <ul id="insightList"></ul>
+
+    </div>
+
+    <div class="glass-card">
+
+        <h2>
+            AI Executive Recommendation
+        </h2>
+
+        <p id="aiRecommendation" style="line-height:2"></p>
+
+        <br>
+
+        <h3
+            id="impactTitle"
+            style="color:#A855F7;">
+        </h3>
+
+        <h2 id="impactValue"></h2>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>
+        FourMode
+    </h3>
+
+    <p>
+        Maritime Transportation Intelligence Dashboard
+    </p>
+
+    <p>
+        Ports • Trade • Cargo • Global Logistics
+    </p>
+
+</footer>
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>

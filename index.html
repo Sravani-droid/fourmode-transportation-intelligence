@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourMode | Executive Transportation Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body data-page="overview">
+
+    <div class="background"></div>
+
+    <nav class="navbar">
+
+      
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                <button class="nav-btn active">Overview</button>
+            </a>
+
+            <a href="road.html">
+                <button class="nav-btn">Road</button>
+            </a>
+
+            <a href="air.html">
+                <button class="nav-btn">Air</button>
+            </a>
+
+            <a href="rail.html">
+                <button class="nav-btn">Rail</button>
+            </a>
+
+            <a href="maritime.html">
+                <button class="nav-btn">Maritime</button>
+            </a>
+
+        </div>
+
+    </nav>
+<section class="hero">
+
+    <h1>FourMode</h1>
+
+    <p class="subtitle">
+        Executive Transportation Intelligence Platform
+    </p>
+
+    <p class="hero-description">
+        Unified analytics across Road, Air, Rail and Maritime transportation systems.
+        Built for executive decision making, operational optimization and strategic planning.
+    </p>
+
+</section>
+
+    <section class="kpi-grid">
+
+        <div class="glass-card">
+            <h3>Road Revenue</h3>
+            <h2 id="roadRevenue">$298.6M</h2>
+        </div>
+
+        <div class="glass-card">
+            <h3>Air Passengers</h3>
+            <h2 id="airPassengers">667.9M</h2>
+        </div>
+
+        <div class="glass-card">
+            <h3>Rail Freight</h3>
+            <h2 id="railFreight">18.1M</h2>
+        </div>
+
+        <div class="glass-card">
+            <h3>Maritime Trade</h3>
+            <h2 id="maritimeTrade">$60.8B</h2>
+        </div>
+
+    </section>
+
+    <section class="chart-section">
+
+        <div class="glass-card health-card">
+
+            <h2>Transportation Network Health Score</h2>
+
+            <div class="health-score">
+
+                <h1>92</h1>
+
+                <p>Excellent</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="chart-section">
+
+        <div class="glass-card chart-card">
+
+            <h2>Mode Comparison</h2>
+
+            <canvas id="overviewChart"></canvas>
+
+        </div>
+
+    </section>
+
+    <section class="glass-card insights-card">
+
+        <h2>Executive Insights</h2>
+
+        <ul>
+
+            <li>Shift low-priority freight from Air to Rail when urgency permits.</li>
+
+            <li>Reduce Road idle time by 10% to unlock nearly 60,000 productive hours.</li>
+
+            <li>Increase Maritime utilization for international freight movement.</li>
+
+            <li>Preserve Air transportation capacity for urgent shipments.</li>
+
+            <li>Estimated annual optimization opportunity: $18.4M.</li>
+
+        </ul>
+
+    </section>
+
+    <section class="mode-section">
+
+        <a href="road.html" class="mode-card">
+            <span>🚚</span>
+            <h3>Road</h3>
+            <p>
+                Revenue optimization, carrier benchmarking,
+                route profitability and fleet utilization.
+            </p>
+        </a>
+
+        <a href="air.html" class="mode-card">
+            <span>✈️</span>
+            <h3>Air</h3>
+            <p>
+                Passenger analytics, airline performance,
+                cargo movement and regional demand.
+            </p>
+        </a>
+
+        <a href="rail.html" class="mode-card">
+            <span>🚆</span>
+            <h3>Rail</h3>
+            <p>
+                Freight forecasting, ton-mile analysis,
+                capacity planning and growth intelligence.
+            </p>
+        </a>
+
+        <a href="maritime.html" class="mode-card">
+            <span>🚢</span>
+            <h3>Maritime</h3>
+            <p>
+                Port intelligence, cargo mix analytics,
+                trade throughput and shipping strategy.
+            </p>
+        </a>
+
+    </section>
+
+    <footer>
+        <p>FourMode — Executive Transportation Intelligence Platform</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

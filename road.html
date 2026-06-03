@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourMode | Road Intelligence</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body data-page="road">
+
+<div class="background"></div>
+
+<nav class="navbar">
+
+    
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            <button class="nav-btn">Overview</button>
+        </a>
+
+        <a href="road.html">
+            <button class="nav-btn active">Road</button>
+        </a>
+
+        <a href="air.html">
+            <button class="nav-btn">Air</button>
+        </a>
+
+        <a href="rail.html">
+            <button class="nav-btn">Rail</button>
+        </a>
+
+        <a href="maritime.html">
+            <button class="nav-btn">Maritime</button>
+        </a>
+
+       
+
+    </div>
+
+</nav>
+
+<section class="hero">
+
+    <h1 id="pageTitle">
+        Road Logistics Intelligence
+    </h1>
+
+    <p class="subtitle" id="pageSubtitle">
+        Revenue, Routes, Idle Capacity & Carrier Optimization
+    </p>
+
+    <p class="description" id="pageDescription">
+        Executive road transportation analytics covering revenue generation,
+        fleet utilization, carrier benchmarking, route optimization,
+        and operational efficiency opportunities.
+    </p>
+
+</section>
+
+<section class="kpi-grid" id="kpiGrid"></section>
+
+<section class="chart-section">
+
+    <div class="glass-card">
+
+        <h2>Road Network Health Score</h2>
+
+        <h1 style="
+            font-size:5rem;
+            color:#67e8f9;
+            text-align:center;
+        ">
+            94
+        </h1>
+
+        <p style="text-align:center;">
+            Fleet performance remains strong with significant
+            optimization opportunities available through idle-time reduction.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="chart-section">
+
+    <div class="glass-card chart-card">
+
+        <h2 id="primaryChartTitle">
+            Top Carrier Analysis
+        </h2>
+
+        <p id="primaryChartNote">
+            Carrier shipment performance comparison across major logistics providers.
+        </p>
+
+        <canvas id="primaryChart"></canvas>
+
+    </div>
+
+</section>
+
+<section class="chart-section">
+
+    <div class="glass-card chart-card">
+
+        <h2 id="secondaryChartTitle">
+            Route Revenue Analysis
+        </h2>
+
+        <p id="secondaryChartNote">
+            Highest performing freight corridors by modeled revenue.
+        </p>
+
+        <canvas id="secondaryChart"></canvas>
+
+    </div>
+
+</section>
+
+<section class="detail-grid">
+
+    <div class="glass-card">
+
+        <h2>
+            Key Insights
+        </h2>
+
+        <ul id="insightList"></ul>
+
+    </div>
+
+    <div class="glass-card">
+
+        <h2>
+            AI Executive Recommendation
+        </h2>
+
+        <p id="aiRecommendation" style="line-height:2"></p>
+
+        <br>
+
+        <h3
+            id="impactTitle"
+            style="color:#67e8f9;">
+        </h3>
+
+        <h2 id="impactValue"></h2>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>
+        FourMode
+    </h3>
+
+    <p>
+        Road Transportation Intelligence Dashboard
+    </p>
+
+    <p>
+        Revenue • Fleet • Routes • Optimization
+    </p>
+
+</footer>
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>

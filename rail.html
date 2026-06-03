@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourMode | Rail Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body data-page="rail">
+
+    <div class="background"></div>
+
+    <nav class="navbar">
+
+       
+
+        <div class="nav-links">
+
+            <a href="index.html"><button class="nav-btn">Overview</button></a>
+
+            <a href="road.html"><button class="nav-btn">Road</button></a>
+
+            <a href="air.html"><button class="nav-btn">Air</button></a>
+
+            <a href="rail.html"><button class="nav-btn active">Rail</button></a>
+
+            <a href="maritime.html"><button class="nav-btn">Maritime</button></a>
+
+           
+
+        </div>
+
+    </nav>
+
+    <section class="hero">
+
+        <h1 id="pageTitle">
+            Rail Freight Growth Intelligence
+        </h1>
+
+        <p class="subtitle" id="pageSubtitle">
+            Freight Volume, Ton-Miles & Long-Term Forecasting
+        </p>
+
+        <p class="description" id="pageDescription">
+            Rail transportation analytics focused on freight growth,
+            long-haul efficiency, capacity planning, commodity movement,
+            and long-term transportation forecasting.
+        </p>
+
+    </section>
+
+    <section class="kpi-grid" id="kpiGrid"></section>
+
+    <section class="chart-section">
+
+        <div class="glass-card">
+
+            <h2>Rail Strategic Value Score</h2>
+
+            <h1 style="
+                font-size:5rem;
+                color:#6EE7B7;
+                text-align:center;
+            ">
+                91
+            </h1>
+
+            <p style="text-align:center;">
+                Rail continues to provide the strongest balance
+                between transportation cost and freight capacity
+                for large-volume domestic movement.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="chart-section">
+
+        <div class="glass-card chart-card">
+
+            <h2 id="primaryChartTitle">
+                Rail Growth Forecast
+            </h2>
+
+            <p id="primaryChartNote">
+                Projected freight growth from current volumes
+                through long-term forecast horizons.
+            </p>
+
+            <canvas id="primaryChart"></canvas>
+
+        </div>
+
+    </section>
+
+    <section class="chart-section">
+
+        <div class="glass-card chart-card">
+
+            <h2 id="secondaryChartTitle">
+                Top Freight Origins
+            </h2>
+
+            <p id="secondaryChartNote">
+                Highest freight-generating origin regions
+                based on modeled transportation volumes.
+            </p>
+
+            <canvas id="secondaryChart"></canvas>
+
+        </div>
+
+    </section>
+
+    <section class="detail-grid">
+
+        <div class="glass-card">
+
+            <h2>
+                Key Insights
+            </h2>
+
+            <ul id="insightList"></ul>
+
+        </div>
+
+        <div class="glass-card">
+
+            <h2>
+                AI Executive Recommendation
+            </h2>
+
+            <p id="aiRecommendation" style="line-height:2"></p>
+
+            <br>
+
+            <h3
+                id="impactTitle"
+                style="color:#6EE7B7;">
+            </h3>
+
+            <h2 id="impactValue"></h2>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>
+            FourMode
+        </h3>
+
+        <p>
+            Rail Transportation Intelligence Dashboard
+        </p>
+
+        <p>
+            Freight • Growth • Capacity • Forecasting
+        </p>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1163 @@
+{
+    "road": {
+        "project": {
+            "title": "Transportation Intelligence Platform",
+            "module": "Road Logistics Intelligence",
+            "subtitle": "Operational decision intelligence for freight, fleet, route, and carrier optimization",
+            "source": "Logistics Operations Database + US Logistics Performance Dataset"
+        },
+        "executive_kpis": {
+            "total_loads": 85410,
+            "completed_loads": 85410,
+            "total_revenue": 298621428.94,
+            "total_revenue_millions": 298.6,
+            "avg_revenue_per_load": 3496.33,
+            "total_miles": 122159201.0,
+            "avg_distance": 1430.27,
+            "total_fuel_gallons": 18946280.1,
+            "avg_mpg": 6.5,
+            "total_idle_hours": 598791.0,
+            "avg_idle_hours": 7.01,
+            "avg_revenue_per_mile": 2.47,
+            "recoverable_idle_hours_10pct": 59879.1,
+            "recoverable_idle_hours_15pct": 89818.65
+        },
+        "routes": {
+            "top_revenue_routes": [
+                {
+                    "route_id": "RTE00044",
+                    "origin_city": "Charlotte",
+                    "origin_state": "NC",
+                    "destination_city": "Portland",
+                    "destination_state": "OR",
+                    "loads": 1410,
+                    "total_revenue": 11229178.42,
+                    "total_miles": 3817963,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 9935.7,
+                    "avg_idle_hours": 7.05,
+                    "avg_revenue_per_mile": 2.94
+                },
+                {
+                    "route_id": "RTE00029",
+                    "origin_city": "Seattle",
+                    "origin_state": "WA",
+                    "destination_city": "Charlotte",
+                    "destination_state": "NC",
+                    "loads": 1467,
+                    "total_revenue": 10931677.65,
+                    "total_miles": 3964388,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10329.3,
+                    "avg_idle_hours": 7.04,
+                    "avg_revenue_per_mile": 2.76
+                },
+                {
+                    "route_id": "RTE00048",
+                    "origin_city": "Columbus",
+                    "origin_state": "OH",
+                    "destination_city": "Portland",
+                    "destination_state": "OR",
+                    "loads": 1525,
+                    "total_revenue": 10909028.9,
+                    "total_miles": 3661229,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10787.2,
+                    "avg_idle_hours": 7.07,
+                    "avg_revenue_per_mile": 2.98
+                },
+                {
+                    "route_id": "RTE00016",
+                    "origin_city": "Philadelphia",
+                    "origin_state": "PA",
+                    "destination_city": "Seattle",
+                    "destination_state": "WA",
+                    "loads": 1465,
+                    "total_revenue": 10856486.67,
+                    "total_miles": 4118647,
+                    "avg_mpg": 6.52,
+                    "total_idle_hours": 10303.4,
+                    "avg_idle_hours": 7.03,
+                    "avg_revenue_per_mile": 2.64
+                },
+                {
+                    "route_id": "RTE00012",
+                    "origin_city": "Phoenix",
+                    "origin_state": "AZ",
+                    "destination_city": "Philadelphia",
+                    "destination_state": "PA",
+                    "loads": 1507,
+                    "total_revenue": 10544304.75,
+                    "total_miles": 3706749,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10530.2,
+                    "avg_idle_hours": 6.99,
+                    "avg_revenue_per_mile": 2.85
+                },
+                {
+                    "route_id": "RTE00046",
+                    "origin_city": "Columbus",
+                    "origin_state": "OH",
+                    "destination_city": "Los Angeles",
+                    "destination_state": "CA",
+                    "loads": 1534,
+                    "total_revenue": 10375969.16,
+                    "total_miles": 3583020,
+                    "avg_mpg": 6.51,
+                    "total_idle_hours": 10854.6,
+                    "avg_idle_hours": 7.08,
+                    "avg_revenue_per_mile": 2.9
+                },
+                {
+                    "route_id": "RTE00042",
+                    "origin_city": "Charlotte",
+                    "origin_state": "NC",
+                    "destination_city": "Seattle",
+                    "destination_state": "WA",
+                    "loads": 1447,
+                    "total_revenue": 9860796.59,
+                    "total_miles": 3912108,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10100.2,
+                    "avg_idle_hours": 6.98,
+                    "avg_revenue_per_mile": 2.52
+                },
+                {
+                    "route_id": "RTE00030",
+                    "origin_city": "Seattle",
+                    "origin_state": "WA",
+                    "destination_city": "Indianapolis",
+                    "destination_state": "IN",
+                    "loads": 1445,
+                    "total_revenue": 8811803.28,
+                    "total_miles": 3195712,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10288.5,
+                    "avg_idle_hours": 7.12,
+                    "avg_revenue_per_mile": 2.76
+                }
+            ],
+            "highest_idle_routes": [
+                {
+                    "route_id": "RTE00055",
+                    "origin_city": "Kansas City",
+                    "origin_state": "MO",
+                    "destination_city": "Miami",
+                    "destination_state": "FL",
+                    "loads": 1443,
+                    "total_revenue": 5792736.15,
+                    "total_miles": 2120245,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10523.4,
+                    "avg_idle_hours": 7.29,
+                    "avg_revenue_per_mile": 2.73
+                },
+                {
+                    "route_id": "RTE00027",
+                    "origin_city": "Detroit",
+                    "origin_state": "MI",
+                    "destination_city": "Houston",
+                    "destination_state": "TX",
+                    "loads": 1491,
+                    "total_revenue": 4568321.4,
+                    "total_miles": 1950294,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10671.4,
+                    "avg_idle_hours": 7.16,
+                    "avg_revenue_per_mile": 2.34
+                },
+                {
+                    "route_id": "RTE00026",
+                    "origin_city": "Miami",
+                    "origin_state": "FL",
+                    "destination_city": "Denver",
+                    "destination_state": "CO",
+                    "loads": 1440,
+                    "total_revenue": 5811882.47,
+                    "total_miles": 2944131,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10250.9,
+                    "avg_idle_hours": 7.12,
+                    "avg_revenue_per_mile": 1.98
+                },
+                {
+                    "route_id": "RTE00030",
+                    "origin_city": "Seattle",
+                    "origin_state": "WA",
+                    "destination_city": "Indianapolis",
+                    "destination_state": "IN",
+                    "loads": 1445,
+                    "total_revenue": 8811803.28,
+                    "total_miles": 3195712,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10288.5,
+                    "avg_idle_hours": 7.12,
+                    "avg_revenue_per_mile": 2.76
+                },
+                {
+                    "route_id": "RTE00039",
+                    "origin_city": "Minneapolis",
+                    "origin_state": "MN",
+                    "destination_city": "Atlanta",
+                    "destination_state": "GA",
+                    "loads": 1440,
+                    "total_revenue": 3729552.9,
+                    "total_miles": 1547599,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10232.1,
+                    "avg_idle_hours": 7.11,
+                    "avg_revenue_per_mile": 2.41
+                },
+                {
+                    "route_id": "RTE00014",
+                    "origin_city": "Phoenix",
+                    "origin_state": "AZ",
+                    "destination_city": "Kansas City",
+                    "destination_state": "MO",
+                    "loads": 1487,
+                    "total_revenue": 4286413.21,
+                    "total_miles": 1845717,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10574.8,
+                    "avg_idle_hours": 7.11,
+                    "avg_revenue_per_mile": 2.32
+                },
+                {
+                    "route_id": "RTE00009",
+                    "origin_city": "Dallas",
+                    "origin_state": "TX",
+                    "destination_city": "Indianapolis",
+                    "destination_state": "IN",
+                    "loads": 1477,
+                    "total_revenue": 2850509.06,
+                    "total_miles": 1333633,
+                    "avg_mpg": 6.47,
+                    "total_idle_hours": 10493.1,
+                    "avg_idle_hours": 7.1,
+                    "avg_revenue_per_mile": 2.14
+                },
+                {
+                    "route_id": "RTE00022",
+                    "origin_city": "Houston",
+                    "origin_state": "TX",
+                    "destination_city": "Memphis",
+                    "destination_state": "TN",
+                    "loads": 1424,
+                    "total_revenue": 1877240.57,
+                    "total_miles": 816443,
+                    "avg_mpg": 6.51,
+                    "total_idle_hours": 10106.7,
+                    "avg_idle_hours": 7.1,
+                    "avg_revenue_per_mile": 2.3
+                }
+            ],
+            "best_revenue_per_mile_routes": [
+                {
+                    "route_id": "RTE00015",
+                    "origin_city": "Philadelphia",
+                    "origin_state": "PA",
+                    "destination_city": "New York",
+                    "destination_state": "NY",
+                    "loads": 1537,
+                    "total_revenue": 524089.55,
+                    "total_miles": 144882,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10688.3,
+                    "avg_idle_hours": 6.95,
+                    "avg_revenue_per_mile": 3.62
+                },
+                {
+                    "route_id": "RTE00036",
+                    "origin_city": "Las Vegas",
+                    "origin_state": "NV",
+                    "destination_city": "Los Angeles",
+                    "destination_state": "CA",
+                    "loads": 1522,
+                    "total_revenue": 1285091.59,
+                    "total_miles": 410033,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10557.7,
+                    "avg_idle_hours": 6.94,
+                    "avg_revenue_per_mile": 3.14
+                },
+                {
+                    "route_id": "RTE00033",
+                    "origin_city": "Portland",
+                    "origin_state": "OR",
+                    "destination_city": "Seattle",
+                    "destination_state": "WA",
+                    "loads": 1491,
+                    "total_revenue": 770975.13,
+                    "total_miles": 255668,
+                    "avg_mpg": 6.51,
+                    "total_idle_hours": 10356.1,
+                    "avg_idle_hours": 6.95,
+                    "avg_revenue_per_mile": 3.02
+                },
+                {
+                    "route_id": "RTE00048",
+                    "origin_city": "Columbus",
+                    "origin_state": "OH",
+                    "destination_city": "Portland",
+                    "destination_state": "OR",
+                    "loads": 1525,
+                    "total_revenue": 10909028.9,
+                    "total_miles": 3661229,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10787.2,
+                    "avg_idle_hours": 7.07,
+                    "avg_revenue_per_mile": 2.98
+                },
+                {
+                    "route_id": "RTE00041",
+                    "origin_city": "Minneapolis",
+                    "origin_state": "MN",
+                    "destination_city": "Houston",
+                    "destination_state": "TX",
+                    "loads": 1429,
+                    "total_revenue": 5253031.92,
+                    "total_miles": 1788217,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10077.8,
+                    "avg_idle_hours": 7.05,
+                    "avg_revenue_per_mile": 2.94
+                },
+                {
+                    "route_id": "RTE00044",
+                    "origin_city": "Charlotte",
+                    "origin_state": "NC",
+                    "destination_city": "Portland",
+                    "destination_state": "OR",
+                    "loads": 1410,
+                    "total_revenue": 11229178.42,
+                    "total_miles": 3817963,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 9935.7,
+                    "avg_idle_hours": 7.05,
+                    "avg_revenue_per_mile": 2.94
+                },
+                {
+                    "route_id": "RTE00038",
+                    "origin_city": "Las Vegas",
+                    "origin_state": "NV",
+                    "destination_city": "Kansas City",
+                    "destination_state": "MO",
+                    "loads": 1425,
+                    "total_revenue": 5605876.94,
+                    "total_miles": 1925399,
+                    "avg_mpg": 6.5,
+                    "total_idle_hours": 10084.7,
+                    "avg_idle_hours": 7.08,
+                    "avg_revenue_per_mile": 2.91
+                },
+                {
+                    "route_id": "RTE00046",
+                    "origin_city": "Columbus",
+                    "origin_state": "OH",
+                    "destination_city": "Los Angeles",
+                    "destination_state": "CA",
+                    "loads": 1534,
+                    "total_revenue": 10375969.16,
+                    "total_miles": 3583020,
+                    "avg_mpg": 6.51,
+                    "total_idle_hours": 10854.6,
+                    "avg_idle_hours": 7.08,
+                    "avg_revenue_per_mile": 2.9
+                }
+            ],
+            "lowest_mpg_routes": [
+                {
+                    "route_id": "RTE00009",
+                    "origin_city": "Dallas",
+                    "origin_state": "TX",
+                    "destination_city": "Indianapolis",
+                    "destination_state": "IN",
+                    "loads": 1477,
+                    "total_revenue": 2850509.06,
+                    "total_miles": 1333633,
+                    "avg_mpg": 6.47,
+                    "total_idle_hours": 10493.1,
+                    "avg_idle_hours": 7.1,
+                    "avg_revenue_per_mile": 2.14
+                },
+                {
+                    "route_id": "RTE00020",
+                    "origin_city": "Houston",
+                    "origin_state": "TX",
+                    "destination_city": "Seattle",
+                    "destination_state": "WA",
+                    "loads": 1485,
+                    "total_revenue": 6917752.04,
+                    "total_miles": 3322940,
+                    "avg_mpg": 6.47,
+                    "total_idle_hours": 10528.8,
+                    "avg_idle_hours": 7.09,
+                    "avg_revenue_per_mile": 2.08
+                },
+                {
+                    "route_id": "RTE00021",
+                    "origin_city": "Houston",
+                    "origin_state": "TX",
+                    "destination_city": "Portland",
+                    "destination_state": "OR",
+                    "loads": 1473,
+                    "total_revenue": 8570926.98,
+                    "total_miles": 3196415,
+                    "avg_mpg": 6.47,
+                    "total_idle_hours": 10250.5,
+                    "avg_idle_hours": 6.96,
+                    "avg_revenue_per_mile": 2.68
+                },
+                {
+                    "route_id": "RTE00019",
+                    "origin_city": "Houston",
+                    "origin_state": "TX",
+                    "destination_city": "Detroit",
+                    "destination_state": "MI",
+                    "loads": 1443,
+                    "total_revenue": 4959520.6,
+                    "total_miles": 1887612,
+                    "avg_mpg": 6.48,
+                    "total_idle_hours": 10018.9,
+                    "avg_idle_hours": 6.94,
+                    "avg_revenue_per_mile": 2.63
+                },
+                {
+                    "route_id": "RTE00023",
+                    "origin_city": "Miami",
+                    "origin_state": "FL",
+                    "destination_city": "Dallas",
+                    "destination_state": "TX",
+                    "loads": 1398,
+                    "total_revenue": 4552643.39,
+                    "total_miles": 1835111,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 9828.2,
+                    "avg_idle_hours": 7.03,
+                    "avg_revenue_per_mile": 2.48
+                },
+                {
+                    "route_id": "RTE00007",
+                    "origin_city": "Dallas",
+                    "origin_state": "TX",
+                    "destination_city": "New York",
+                    "destination_state": "NY",
+                    "loads": 1502,
+                    "total_revenue": 6873821.94,
+                    "total_miles": 2437105,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10504.8,
+                    "avg_idle_hours": 6.99,
+                    "avg_revenue_per_mile": 2.82
+                },
+                {
+                    "route_id": "RTE00010",
+                    "origin_city": "New York",
+                    "origin_state": "NY",
+                    "destination_city": "Philadelphia",
+                    "destination_state": "PA",
+                    "loads": 1468,
+                    "total_revenue": 348732.57,
+                    "total_miles": 138291,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10195.8,
+                    "avg_idle_hours": 6.95,
+                    "avg_revenue_per_mile": 2.52
+                },
+                {
+                    "route_id": "RTE00005",
+                    "origin_city": "Chicago",
+                    "origin_state": "IL",
+                    "destination_city": "Las Vegas",
+                    "destination_state": "NV",
+                    "loads": 1479,
+                    "total_revenue": 7012805.14,
+                    "total_miles": 2661627,
+                    "avg_mpg": 6.49,
+                    "total_idle_hours": 10494.6,
+                    "avg_idle_hours": 7.1,
+                    "avg_revenue_per_mile": 2.64
+                }
+            ]
+        },
+        "carriers": {
+            "lowest_cost_carriers": [
+                {
+                    "carrier": "USPS",
+                    "shipments": 292,
+                    "avg_cost": 182.66,
+                    "total_cost": 51327.75,
+                    "avg_distance": 1244.77,
+                    "avg_transit_days": 4.05
+                },
+                {
+                    "carrier": "OnTrac",
+                    "shipments": 299,
+                    "avg_cost": 184.6,
+                    "total_cost": 54456.71,
+                    "avg_distance": 1229.24,
+                    "avg_transit_days": 4.12
+                },
+                {
+                    "carrier": "Amazon Logistics",
+                    "shipments": 274,
+                    "avg_cost": 193.91,
+                    "total_cost": 51773.77,
+                    "avg_distance": 1316.11,
+                    "avg_transit_days": 4.32
+                },
+                {
+                    "carrier": "LaserShip",
+                    "shipments": 303,
+                    "avg_cost": 207.86,
+                    "total_cost": 61525.94,
+                    "avg_distance": 1230.49,
+                    "avg_transit_days": 4.04
+                },
+                {
+                    "carrier": "FedEx",
+                    "shipments": 295,
+                    "avg_cost": 217.97,
+                    "total_cost": 64081.99,
+                    "avg_distance": 1322.25,
+                    "avg_transit_days": 4.3
+                },
+                {
+                    "carrier": "DHL",
+                    "shipments": 281,
+                    "avg_cost": 222.13,
+                    "total_cost": 61087.06,
+                    "avg_distance": 1312.51,
+                    "avg_transit_days": 4.27
+                },
+                {
+                    "carrier": "UPS",
+                    "shipments": 256,
+                    "avg_cost": 229.71,
+                    "total_cost": 57658.35,
+                    "avg_distance": 1282.77,
+                    "avg_transit_days": 4.2
+                }
+            ],
+            "fastest_carriers": [
+                {
+                    "carrier": "LaserShip",
+                    "shipments": 303,
+                    "avg_cost": 207.86,
+                    "total_cost": 61525.94,
+                    "avg_distance": 1230.49,
+                    "avg_transit_days": 4.04
+                },
+                {
+                    "carrier": "USPS",
+                    "shipments": 292,
+                    "avg_cost": 182.66,
+                    "total_cost": 51327.75,
+                    "avg_distance": 1244.77,
+                    "avg_transit_days": 4.05
+                },
+                {
+                    "carrier": "OnTrac",
+                    "shipments": 299,
+                    "avg_cost": 184.6,
+                    "total_cost": 54456.71,
+                    "avg_distance": 1229.24,
+                    "avg_transit_days": 4.12
+                },
+                {
+                    "carrier": "UPS",
+                    "shipments": 256,
+                    "avg_cost": 229.71,
+                    "total_cost": 57658.35,
+                    "avg_distance": 1282.77,
+                    "avg_transit_days": 4.2
+                },
+                {
+                    "carrier": "DHL",
+                    "shipments": 281,
+                    "avg_cost": 222.13,
+                    "total_cost": 61087.06,
+                    "avg_distance": 1312.51,
+                    "avg_transit_days": 4.27
+                },
+                {
+                    "carrier": "FedEx",
+                    "shipments": 295,
+                    "avg_cost": 217.97,
+                    "total_cost": 64081.99,
+                    "avg_distance": 1322.25,
+                    "avg_transit_days": 4.3
+                },
+                {
+                    "carrier": "Amazon Logistics",
+                    "shipments": 274,
+                    "avg_cost": 193.91,
+                    "total_cost": 51773.77,
+                    "avg_distance": 1316.11,
+                    "avg_transit_days": 4.32
+                }
+            ],
+            "highest_volume_carriers": [
+                {
+                    "carrier": "LaserShip",
+                    "shipments": 303,
+                    "avg_cost": 207.86,
+                    "total_cost": 61525.94,
+                    "avg_distance": 1230.49,
+                    "avg_transit_days": 4.04
+                },
+                {
+                    "carrier": "OnTrac",
+                    "shipments": 299,
+                    "avg_cost": 184.6,
+                    "total_cost": 54456.71,
+                    "avg_distance": 1229.24,
+                    "avg_transit_days": 4.12
+                },
+                {
+                    "carrier": "FedEx",
+                    "shipments": 295,
+                    "avg_cost": 217.97,
+                    "total_cost": 64081.99,
+                    "avg_distance": 1322.25,
+                    "avg_transit_days": 4.3
+                },
+                {
+                    "carrier": "USPS",
+                    "shipments": 292,
+                    "avg_cost": 182.66,
+                    "total_cost": 51327.75,
+                    "avg_distance": 1244.77,
+                    "avg_transit_days": 4.05
+                },
+                {
+                    "carrier": "DHL",
+                    "shipments": 281,
+                    "avg_cost": 222.13,
+                    "total_cost": 61087.06,
+                    "avg_distance": 1312.51,
+                    "avg_transit_days": 4.27
+                },
+                {
+                    "carrier": "Amazon Logistics",
+                    "shipments": 274,
+                    "avg_cost": 193.91,
+                    "total_cost": 51773.77,
+                    "avg_distance": 1316.11,
+                    "avg_transit_days": 4.32
+                },
+                {
+                    "carrier": "UPS",
+                    "shipments": 256,
+                    "avg_cost": 229.71,
+                    "total_cost": 57658.35,
+                    "avg_distance": 1282.77,
+                    "avg_transit_days": 4.2
+                }
+            ]
+        },
+        "risk": {
+            "risk_summary": [
+                {
+                    "idle_risk": "Medium",
+                    "fuel_efficiency_risk": "Medium",
+                    "loads": 21374,
+                    "total_revenue": 74294559.73,
+                    "avg_idle_hours": 7.47,
+                    "avg_mpg": 6.5,
+                    "risk_segment": "Medium Idle / Medium Fuel Risk"
+                },
+                {
+                    "idle_risk": "Low",
+                    "fuel_efficiency_risk": "Medium",
+                    "loads": 12391,
+                    "total_revenue": 43049524.02,
+                    "avg_idle_hours": 3.49,
+                    "avg_mpg": 6.5,
+                    "risk_segment": "Low Idle / Medium Fuel Risk"
+                },
+                {
+                    "idle_risk": "Medium",
+                    "fuel_efficiency_risk": "Low",
+                    "loads": 10838,
+                    "total_revenue": 37760060.66,
+                    "avg_idle_hours": 7.45,
+                    "avg_mpg": 7.25,
+                    "risk_segment": "Medium Idle / Low Fuel Risk"
+                },
+                {
+                    "idle_risk": "Medium",
+                    "fuel_efficiency_risk": "High",
+                    "loads": 10600,
+                    "total_revenue": 37405495.08,
+                    "avg_idle_hours": 7.44,
+                    "avg_mpg": 5.75,
+                    "risk_segment": "Medium Idle / High Fuel Risk"
+                },
+                {
+                    "idle_risk": "High",
+                    "fuel_efficiency_risk": "Medium",
+                    "loads": 8724,
+                    "total_revenue": 30465958.25,
+                    "avg_idle_hours": 10.98,
+                    "avg_mpg": 6.5,
+                    "risk_segment": "High Idle / Medium Fuel Risk"
+                },
+                {
+                    "idle_risk": "Low",
+                    "fuel_efficiency_risk": "Low",
+                    "loads": 6454,
+                    "total_revenue": 22513002.08,
+                    "avg_idle_hours": 3.48,
+                    "avg_mpg": 7.25,
+                    "risk_segment": "Low Idle / Low Fuel Risk"
+                },
+                {
+                    "idle_risk": "Low",
+                    "fuel_efficiency_risk": "High",
+                    "loads": 6259,
+                    "total_revenue": 21961527.36,
+                    "avg_idle_hours": 3.47,
+                    "avg_mpg": 5.75,
+                    "risk_segment": "Low Idle / High Fuel Risk"
+                },
+                {
+                    "idle_risk": "High",
+                    "fuel_efficiency_risk": "Low",
+                    "loads": 4418,
+                    "total_revenue": 15548467.96,
+                    "avg_idle_hours": 10.97,
+                    "avg_mpg": 7.24,
+                    "risk_segment": "High Idle / Low Fuel Risk"
+                },
+                {
+                    "idle_risk": "High",
+                    "fuel_efficiency_risk": "High",
+                    "loads": 4352,
+                    "total_revenue": 15622833.8,
+                    "avg_idle_hours": 10.97,
+                    "avg_mpg": 5.75,
+                    "risk_segment": "High Idle / High Fuel Risk"
+                }
+            ],
+            "risk_insight": {
+                "high_idle_loads": 17494,
+                "high_idle_revenue": 61637260.01,
+                "high_idle_avg_hours": 10.97,
+                "high_idle_revenue_millions": 61.6
+            }
+        },
+        "recommendations": [
+            {
+                "problem": "High idle capacity",
+                "evidence": "598,791 total idle hours identified across road operations.",
+                "action": "Improve dispatch planning, driver scheduling, and route sequencing.",
+                "impact": "A 10% idle reduction could recover approximately 59,879 productive hours."
+            },
+            {
+                "problem": "Fuel efficiency variation",
+                "evidence": "Average fleet MPG is 6.5. Low-MPG routes create avoidable fuel leakage.",
+                "action": "Prioritize low-MPG routes for routing review and equipment assignment optimization.",
+                "impact": "Improved MPG reduces fuel spend and increases route margin."
+            },
+            {
+                "problem": "Carrier cost variation",
+                "evidence": "Carrier average costs vary meaningfully across the shipment dataset.",
+                "action": "Shift non-urgent shipments toward lower-cost carriers where service levels are acceptable.",
+                "impact": "Carrier mix optimization can reduce transportation spend without reducing service reliability."
+            }
+        ]
+    },
+    "air": {
+        "kpis": {
+            "total_cargo_tons": 7369599.063665001,
+            "total_passengers": 667893973
+        },
+        "top_airlines": [
+            {
+                "operating_airline": "United Airlines",
+                "cargo_metric_tons": 1122403.5635952
+            },
+            {
+                "operating_airline": "United Airlines - Pre 07/01/2013",
+                "cargo_metric_tons": 809104.4839636
+            },
+            {
+                "operating_airline": "Federal Express",
+                "cargo_metric_tons": 744694.544507
+            },
+            {
+                "operating_airline": "Korean Air Lines",
+                "cargo_metric_tons": 353163.3287066
+            },
+            {
+                "operating_airline": "China Airlines",
+                "cargo_metric_tons": 314713.592224
+            },
+            {
+                "operating_airline": "EVA Airways",
+                "cargo_metric_tons": 301551.9400686
+            },
+            {
+                "operating_airline": "Atlas Air, Inc",
+                "cargo_metric_tons": 269568.8871114
+            },
+            {
+                "operating_airline": "American Airlines",
+                "cargo_metric_tons": 252839.127997
+            },
+            {
+                "operating_airline": "Asiana Airlines",
+                "cargo_metric_tons": 248476.1981674
+            },
+            {
+                "operating_airline": "Delta Air Lines",
+                "cargo_metric_tons": 214185.7391688
+            }
+        ],
+        "top_passenger_airlines": [
+            {
+                "operating_airline": "United Airlines",
+                "passenger_count": 153132799
+            },
+            {
+                "operating_airline": "United Airlines - Pre 07/01/2013",
+                "passenger_count": 105363917
+            },
+            {
+                "operating_airline": "SkyWest Airlines",
+                "passenger_count": 53022128
+            },
+            {
+                "operating_airline": "American Airlines",
+                "passenger_count": 50944266
+            },
+            {
+                "operating_airline": "Delta Air Lines",
+                "passenger_count": 42797969
+            },
+            {
+                "operating_airline": "Southwest Airlines",
+                "passenger_count": 39534967
+            },
+            {
+                "operating_airline": "Virgin America",
+                "passenger_count": 37843920
+            },
+            {
+                "operating_airline": "Alaska Airlines",
+                "passenger_count": 27923130
+            },
+            {
+                "operating_airline": "US Airways",
+                "passenger_count": 16816616
+            },
+            {
+                "operating_airline": "JetBlue Airways",
+                "passenger_count": 14077961
+            }
+        ],
+        "regions": [
+            {
+                "geo_region": "Asia",
+                "cargo_metric_tons": 3167968.4869968
+            },
+            {
+                "geo_region": "US",
+                "cargo_metric_tons": 2949683.8435842
+            },
+            {
+                "geo_region": "Europe",
+                "cargo_metric_tons": 960326.5137992
+            },
+            {
+                "geo_region": "Australia / Oceania",
+                "cargo_metric_tons": 189522.9066024
+            },
+            {
+                "geo_region": "Middle East",
+                "cargo_metric_tons": 53207.3448648
+            },
+            {
+                "geo_region": "Canada",
+                "cargo_metric_tons": 25134.4472904
+            },
+            {
+                "geo_region": "South America",
+                "cargo_metric_tons": 12177.8858376
+            },
+            {
+                "geo_region": "Mexico",
+                "cargo_metric_tons": 10401.3378504
+            },
+            {
+                "geo_region": "Central America",
+                "cargo_metric_tons": 1176.2968392
+            }
+        ]
+    },
+    "rail": {
+        "kpis": {
+            "total_tons_2015": 18112571.34376201,
+            "total_value_2015": 19177717.008138068,
+            "total_ton_miles_2015": 5161276.23545253,
+            "total_tons_2045": 26970597.53984771,
+            "total_value_2045": 37985359.9379469
+        },
+        "top_origins": [
+            {
+                "dms_orig": 48,
+                "tons_2015": 2486353.1734355222,
+                "value_2015": 2684236.908641031
+            },
+            {
+                "dms_orig": 6,
+                "tons_2015": 1195115.4040461488,
+                "value_2015": 2222004.2574111787
+            },
+            {
+                "dms_orig": 17,
+                "tons_2015": 898495.9558083948,
+                "value_2015": 1114096.4314144629
+            },
+            {
+                "dms_orig": 22,
+                "tons_2015": 861637.896098863,
+                "value_2015": 525972.2502110885
+            },
+            {
+                "dms_orig": 42,
+                "tons_2015": 695845.9374669248,
+                "value_2015": 713767.6997600502
+            },
+            {
+                "dms_orig": 12,
+                "tons_2015": 590749.2126192733,
+                "value_2015": 656574.686960297
+            },
+            {
+                "dms_orig": 39,
+                "tons_2015": 589329.8085287632,
+                "value_2015": 703130.6331376178
+            },
+            {
+                "dms_orig": 36,
+                "tons_2015": 535151.5562101121,
+                "value_2015": 825980.2956474425
+            },
+            {
+                "dms_orig": 27,
+                "tons_2015": 506324.3502278405,
+                "value_2015": 361822.14700227295
+            },
+            {
+                "dms_orig": 56,
+                "tons_2015": 470559.0574588087,
+                "value_2015": 62388.78572234057
+            }
+        ],
+        "top_destinations": [
+            {
+                "dms_dest": 48,
+                "tons_2015": 2455765.8766564084,
+                "value_2015": 2579199.8145610224
+            },
+            {
+                "dms_dest": 6,
+                "tons_2015": 1305777.5980412953,
+                "value_2015": 2003129.7657583128
+            },
+            {
+                "dms_dest": 17,
+                "tons_2015": 896625.1417943438,
+                "value_2015": 937446.0021156588
+            },
+            {
+                "dms_dest": 22,
+                "tons_2015": 833053.7622835524,
+                "value_2015": 541149.217595374
+            },
+            {
+                "dms_dest": 39,
+                "tons_2015": 676217.0376972131,
+                "value_2015": 709883.171470099
+            },
+            {
+                "dms_dest": 12,
+                "tons_2015": 674729.9236537558,
+                "value_2015": 758868.2262477223
+            },
+            {
+                "dms_dest": 42,
+                "tons_2015": 650053.4457024307,
+                "value_2015": 712215.0527516517
+            },
+            {
+                "dms_dest": 36,
+                "tons_2015": 591424.8624169106,
+                "value_2015": 966163.4265299204
+            },
+            {
+                "dms_dest": 18,
+                "tons_2015": 513778.425797175,
+                "value_2015": 489439.11247723136
+            },
+            {
+                "dms_dest": 27,
+                "tons_2015": 497142.61572765786,
+                "value_2015": 350672.22392037994
+            }
+        ],
+        "growth": [
+            {
+                "trade_type": 1,
+                "tons_2015": 15976098.77152511,
+                "tons_2045": 20931830.76901318,
+                "growth_pct": 31.019662987567948
+            },
+            {
+                "trade_type": 2,
+                "tons_2015": 1144544.7248962575,
+                "tons_2045": 2400482.1807713234,
+                "growth_pct": 109.73249262835974
+            },
+            {
+                "trade_type": 3,
+                "tons_2015": 991927.8473406472,
+                "tons_2045": 3638284.590063201,
+                "growth_pct": 266.7892377270606
+            }
+        ]
+    },
+    "maritime": {
+        "kpis": {
+            "total_portcalls": 9323798.0,
+            "total_imports": 30398507095.13771,
+            "total_exports": 30404875004.87892,
+            "total_trade": 60803382100.01663
+        },
+        "top_ports": [
+            {
+                "portname": "Singapore",
+                "portcalls": 253234,
+                "import": 796717078.5800496,
+                "export": 716517872.9558755
+            },
+            {
+                "portname": "Shanghai",
+                "portcalls": 154008,
+                "import": 245447207.8102621,
+                "export": 573019192.5900083
+            },
+            {
+                "portname": "Rotterdam",
+                "portcalls": 134457,
+                "import": 804524399.8312931,
+                "export": 315897959.8920044
+            },
+            {
+                "portname": "Busan",
+                "portcalls": 112436,
+                "import": 187714876.99846,
+                "export": 210849557.9888123
+            },
+            {
+                "portname": "Hong Kong",
+                "portcalls": 93092,
+                "import": 219346233.0238616,
+                "export": 223642893.3678913
+            },
+            {
+                "portname": "Ningbo",
+                "portcalls": 87531,
+                "import": 607115464.5652894,
+                "export": 377143000.7676056
+            },
+            {
+                "portname": "Nagoya Aichi",
+                "portcalls": 80664,
+                "import": 88113667.60918278,
+                "export": 45742206.40406726
+            },
+            {
+                "portname": "Antwerp",
+                "portcalls": 80039,
+                "import": 209249686.36785007,
+                "export": 273203189.0854458
+            },
+            {
+                "portname": "Kaohsiung",
+                "portcalls": 76121,
+                "import": 255217607.8968574,
+                "export": 163596130.0464897
+            },
+            {
+                "portname": "Yokohama",
+                "portcalls": 72878,
+                "import": 76135681.40239048,
+                "export": 41851019.03921568
+            }
+        ],
+        "top_countries": [
+            {
+                "country": "China",
+                "import": 8325256979.689399,
+                "export": 4038373505.122134
+            },
+            {
+                "country": "Japan",
+                "import": 1701634491.7881696,
+                "export": 583589128.2803206
+            },
+            {
+                "country": "United States",
+                "import": 1661941148.3803077,
+                "export": 2232527264.6628537
+            },
+            {
+                "country": "India",
+                "import": 1459104718.852794,
+                "export": 641859093.5377983
+            },
+            {
+                "country": "Korea",
+                "import": 1108568751.639428,
+                "export": 588878110.0625736
+            },
+            {
+                "country": "The Netherlands",
+                "import": 1062564758.008066,
+                "export": 475341826.7245541
+            },
+            {
+                "country": "Singapore",
+                "import": 818466758.8708082,
+                "export": 734990868.8820196
+            },
+            {
+                "country": "Spain",
+                "import": 666766498.5868018,
+                "export": 497497312.34832704
+            },
+            {
+                "country": "T\u00fcrkiye",
+                "import": 663184128.0843935,
+                "export": 611809212.4583341
+            },
+            {
+                "country": "United Kingdom",
+                "import": 662523877.1411331,
+                "export": 265750093.7994523
+            }
+        ],
+        "cargo_mix": [
+            {
+                "container": 12726245784.373062,
+                "dry_bulk": 27391377419.118225,
+                "general_cargo": 3372938939.6503263,
+                "roro": 513031488.6643941,
+                "tanker": 16799788468.21062
+            }
+        ]
+    }
+}
